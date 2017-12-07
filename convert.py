@@ -122,7 +122,6 @@ def generate_wiki():
     for (key, departamentos) in data.items():
         if key == 0: 
             output += '=Expresos=\n'
-            continue
         elif key == 1: 
             output += '=Ruteados=\n'
         elif key == 2: 

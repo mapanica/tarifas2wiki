@@ -1,13 +1,18 @@
 tarifas2wiki
 ============
 
+This little script processes the [Fare Resolution](data/Resolucion_Tarifas_Abril_2017.pdf)
+of the Nicaraguan transport ministry to generate tables used on the OSM-Wiki pages to track
+the process of the mapping of Nicaraguan public transport routes.
+
 Please make sure you use Python 3 to run it.
 
 Use
 ------------
 
 * Install dependencies with `pip3 install -r requirements.txt`
-* Run `python3 convert.py`
+* Run `python3 convert.py > output.txt`
+* Copy the generated text inside `output.txt` to the wikipages
 
 
 License
